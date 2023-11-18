@@ -1,4 +1,4 @@
-package com.example.api.domain;
+package com.example.consumer.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -18,6 +18,6 @@ public class FailedEvent {
     public FailedEvent(Long userId) {
         this.userId = userId;
     }
-    
+
 
 }
